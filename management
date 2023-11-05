@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Management</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Ticket Management</h1>
+    <p>Enter available and sold ticket numbers:</p>
+    <input type="text" id="ticketNumber" placeholder="Enter Ticket Number">
+    <label for="availability">Availability:</label>
+    <input type="checkbox" id="availability" checked>
+    <button onclick="manageTicket()">Manage Ticket</button>
+</body>
+</html>
